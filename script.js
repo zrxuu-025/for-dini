@@ -41,7 +41,7 @@ const music = document.getElementById('bg-music')
 
 document.addEventListener("click", () => {
  if (music) {
-    music.volume = 0.3;
+    music.volume = 0.5;
     music.play();
   }
 }, { once: true });
