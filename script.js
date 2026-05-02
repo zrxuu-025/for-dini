@@ -40,7 +40,7 @@ const noBtn = document.getElementById('no-btn')
 const music = document.getElementById('bg-music')
 
 document.addEventListener("click", () => {
-  if (music && music.paused) {
+ if (music) {
     music.volume = 0.3;
     music.play();
   }
