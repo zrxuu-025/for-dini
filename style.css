@@ -204,3 +204,14 @@ h1 {
     width: 260px;
     height: 260px;
 }
+
+@keyframes fallHeart {
+  from {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
